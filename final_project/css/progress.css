@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* Table Styles */
+
+table.freshman.schedule{
+    background: white;
+    border: 10px outset rgb(90, 27, 90);
+    border-collapse: collapse;
+    font-size: 0.75em;
+    width: 100%;
+}
+
+table.freshman.schedule th, table.freshman.schedule td {
+    border: 1px solid gray;
+    padding: 5px;
+    vertical-align: top;
+ }
+ 
+ table.freshman.schedule caption {
+    caption-side: bottom;
+    text-align: right;
+ }
+
+ table.freshman.schedule thead {
+    background: rgb(80, 22, 80);
+    color: white;
+ }
+
+ table.schedule tfoot {
+    background: black;
+    color: white;
+ }
+
+ table.freshman.schedule thead tr {
+    height: 30px;
+ }
+ 
+ table.freshman.schedule tbody tr {
+    height: 40px;
+ }
+
+ col#firstCol {
+    background: rgb(218, 210, 218);
+    width: 16%;
+ }
+ 
+ col.semesters {
+    background: rgb(255, 220, 255);
+    width: 12%;
+ }

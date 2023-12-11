@@ -1,0 +1,36 @@
+
+
+
+h1 {
+	color: rgb(0, 30, 27);
+
+}
+
+
+div#grid {
+	display: grid;
+	margin: 0 5% 5% 5%;
+	grid-gap: 15px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 50% 50%;
+	box-sizing: border-box;
+}
+
+div.form1 {
+	grid-column: span 2;
+}
+
+.aboutMe {
+	padding: 0px;
+}
+
+@media (max-aspect-ratio: 1/1){
+	div#grid{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+
+	div.form1 {
+		grid-column: 1;
+	}
+}
